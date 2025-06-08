@@ -82,3 +82,4 @@ My goal with this project is to:
 - Full configuration of pfSense (WAN/LAN, VLAN, WireGuard, port forwarding)  
 - Setting up automatic Wake-on-LAN or remote server control  
 
+# to be continued...
