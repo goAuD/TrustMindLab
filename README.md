@@ -53,7 +53,7 @@ My goal with this project is to:
 ### Network
 
 - Netgear GS308E: 8-port managed switch  
-- UNI USB–Ethernet adapter: used with Fedora laptop  
+- UNI USB–Ethernet adapter: used with HP laptop  
 - ISP Routers:  
   - ZTE MC888A Ultra (5G, currently the active internet connection)  
   - ZTE H338A (4G, can be used as a backup access point)  
