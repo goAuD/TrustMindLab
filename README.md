@@ -108,13 +108,13 @@ My goal with this project is to:
 * DMZ is not being used, I don't need it for this setup
 * I manually opened port 32400 for Plex, it's working, I may not need UPnP anymore
 
-##   Plex + Tailscale
+##   Plex + Tailscale:
 
-* Plex now shows a direct connection, and the stream quality is much better and stable
-* Tailscale is amazing:
-
-  * My iPhone connects through an Exit Node when needed, depending on whether it's on Wi-Fi or mobile
-  * Plex works great over Tailscale without any issues
+   * Plex now shows a direct connection, and the stream quality is much better and stable
+   * Tailscale is amazing
+     
+     * My iPhone connects through an Exit Node when needed, depending on whether it's on Wi-Fi or mobile
+     * Plex works great over Tailscale without any issues
 
 # to be continued...
 
