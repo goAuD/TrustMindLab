@@ -29,7 +29,7 @@ My goal with this project is to:
 - VGA: Nvidia RTX 3050  
 - Storage: 1 TB NVMe SSD  
 - OS: Fedora Linux  
-- Main purpose: Learning, system administration, network simulations  
+- Main purpose: Learning system administration, network simulations, monitoring
 
 **Windows 11 Pro PC (main server):**  
 - CPU: Intel Core i7-8700K  
