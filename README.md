@@ -82,4 +82,39 @@ My goal with this project is to:
 - Full configuration of pfSense (WAN/LAN, VLAN, WireGuard, port forwarding)  
 - Setting up automatic Wake-on-LAN or remote server control  
 
+#  HomeLab Log - 08-06-2025
+
+##  System Overview
+
+* OS: Windows 11 Pro (fresh reinstall)
+* RAM: 32 GB
+* Drive: SSD (pagefile active)
+* Usage: Plex server, remote media access (iPhone, Fedora), secure browsing, Tailscale VPN
+
+##  System Tweaks
+
+* Pagefile (Virtual Memory):
+
+  * Initial size: 1024 MB
+  * Maximum size: 4892 MB
+  * Located on SSD (system drive)
+  * Default settings work fine with 32 GB RAM
+
+##  Network Setup
+
+* UPnP is enabled and helps both Plex and Tailscale
+* SIP-ALG is still on by default, but since I turned off Wi-Fi Calling, I think I can safely disable it
+* MAC/IP/Port Filtering is on by default and probably unnecessary, I turn it off
+* DMZ is not being used, I don't need it for this setup
+* I manually opened port 32400 for Plex, it's working, I may not need UPnP anymore
+
+##   Plex + Tailscale
+
+* Plex now shows a direct connection, and the stream quality is much better and stable
+* Tailscale is amazing:
+
+  * My iPhone connects through an Exit Node when needed, depending on whether it's on Wi-Fi or mobile
+  * Plex works great over Tailscale without any issues
+
 # to be continued...
+
