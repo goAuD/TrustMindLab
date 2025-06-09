@@ -91,7 +91,7 @@ My goal with this project is to:
   * Initial size: 1024 MB
   * Maximum size: 4892 MB
   * Located on SSD (system drive)
-  * Default settings work fine with 32 GB RAM
+  * Settings work fine with 32 GB RAM
 
 ##  Network Setup
 
