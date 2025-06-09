@@ -84,13 +84,6 @@ My goal with this project is to:
 
 #  HomeLab Log 08-06-2025
 
-##  System Overview
-
-* OS: Windows 11 Pro (fresh reinstall)
-* RAM: 32 GB
-* Drive: SSD (pagefile active)
-* Usage: Plex server, remote media access (iPhone, Fedora), secure browsing, Tailscale VPN
-
 ##  System Tweaks
 
 * Pagefile (Virtual Memory):
