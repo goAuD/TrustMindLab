@@ -82,7 +82,7 @@ My goal with this project is to:
 - Full configuration of pfSense (WAN/LAN, VLAN, WireGuard, port forwarding)  
 - Setting up automatic Wake-on-LAN or remote server control  
 
-#  HomeLab Log - 08-06-2025
+#  HomeLab Log 08-06-2025
 
 ##  System Overview
 
