@@ -23,11 +23,11 @@ My goal with this project is to:
 ---
 
 <details>
-<summary><strong>  Equipment Overview (2025)</strong></summary>
+<summary><strong>  Equipment Overview |2025|</strong></summary>
 
 ### Workstations and Servers
 
-**MSI Thin 15 B12UC laptop:**  
+***MSI Thin 15 B12UC laptop:***  
 - CPU: Intel Core i5 (12th generation)  
 - RAM: 32 GB  
 - VGA: Nvidia RTX 3050  
@@ -35,14 +35,14 @@ My goal with this project is to:
 - OS: Fedora Linux  
 - Purpose: Learning system administration, network simulations, monitoring  
 
-**Windows 11 Pro PC (main server):**  
+***Windows 11 Pro PC (main server):***  
 - CPU: Intel Core i7-8700K  
 - RAM: 32 GB  
 - VGA: Nvidia RTX 3060 Ti  
 - Storage: 2× 1 TB NVMe SSD, 1 TB HDD  
 - Roles: Plex + Tailscale media server, planned NGINX web server  
 
-**HP 15-ba106ng laptop (pfSense router):**  
+***HP 15-ba106ng laptop (pfSense router):***  
 - CPU: AMD A9-9410  
 - RAM: 8 GB  
 - Storage: 1 TB HDD  
@@ -74,43 +74,44 @@ My goal with this project is to:
 
 ---
 
-##   HomeLab Log (latest first)
-
-### 2025-06-08
-
-**System Tweaks:**  
-- Pagefile set to initial 1024 MB, max 4892 MB on SSD (works well with 32 GB RAM)
-
-**Network Setup:**  
-- UPnP enabled (helps Plex and Tailscale)  
-- SIP-ALG still on, will disable after Wi-Fi Calling off  
-- MAC/IP/Port Filtering disabled (unnecessary)  
-- DMZ not used  
-- Manual port forwarding for Plex (32400) working; UPnP might be disabled  
-
-**Plex + Tailscale:**  
-- Direct connection enabled, better and stable streaming  
-- iPhone uses Tailscale exit node depending on network  
-- Plex works flawlessly over Tailscale  
-
----
-
-### 2025-06-07
-
-- pfSense configuration ongoing (WAN/LAN, VLAN, WireGuard, port forwarding)  
-- Planning Wake-on-LAN and remote server control automation  
-
----
-
-##   Planned Developments
-
+<details>
+<summary><strong>  Planned Developments</strong></summary>
+  
 - Set up NGINX web server on Windows  
 - Create basic static website for portfolio/monitoring  
 - Finish pfSense full configuration  
 - Automate Wake-on-LAN and remote management  
 - Update automation with Ansible
-- Installing Docker with Photoprism for photo cataloging  
+- Docker installation with Photoprism for photo cataloging and secure, remote access from mobile
+- Planning Wake-on-LAN and remote server control automation 
+
+</details>
 
 ---
 
-# To be continued...
+<details>
+<summary><strong>  HomeLab Log |2025-06-08|</strong></summary>  
+  
+  ***System Tweaks:***
+- Pagefile set to initial 1024 MB, max 4892 MB on SSD (works well with 32 GB RAM)
+
+***Network Setup:***  
+- UPnP enabled (helps Plex and Tailscale)  
+- SIP-ALG still on, will disable after Wi-Fi Calling off  
+- MAC/IP/Port Filtering disabled (unnecessary)  
+- DMZ not used  
+- Manual port forwarding for Plex (32400) working; UPnP might be disabled
+- pfSense configuration ongoing (WAN/LAN, VLAN, WireGuard, port forwarding)  
+
+***Plex + Tailscale:***  
+- Direct connection enabled, better and stable streaming  
+- iPhone uses Tailscale *exit node* depending on network  
+- Plex works flawlessly over Tailscale  
+
+</details>
+
+---
+
+# ***To be continued...***
+
+---
