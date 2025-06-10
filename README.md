@@ -108,7 +108,8 @@ My goal with this project is to:
 - Create basic static website for portfolio/monitoring  
 - Finish pfSense full configuration  
 - Automate Wake-on-LAN and remote management  
-- Update automation with Ansible  
+- Update automation with Ansible
+- Installing Docker with Photoprism for photo cataloging  
 
 ---
 
