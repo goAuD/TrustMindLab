@@ -1,7 +1,11 @@
+### *To be continued...*
+
 # Welcome, in my HomeLab Project!
 
 <details>
 <summary><strong>  Introduction – Who I am and what this project is about</strong></summary>
+
+---
 
 My name is Viktor Halupka, I was born in Budapest, and I have been living in Austria since 2014.  
 Since my childhood (Commodore 64), I have been interested in the world of IT, but I worked in the gastronomy industry for a long time.  
@@ -24,6 +28,8 @@ My goal with this project is to:
 
 <details>
 <summary><strong>  Equipment Overview |2025|</strong></summary>
+
+---
 
 ### Workstations and Servers
 
@@ -76,6 +82,8 @@ My goal with this project is to:
 
 <details>
 <summary><strong>  Planned Developments</strong></summary>
+
+---
   
 - Set up NGINX web server on Windows  
 - Create basic static website for portfolio/monitoring  
@@ -88,6 +96,95 @@ My goal with this project is to:
 </details>
 
 ---
+
+# Docker - The beginning 11|06|2025
+
+As part of the HomeLab, I used Docker containerization to host isolated, manageable home services. During the project, I resolved several technical issues and successfully deployed several services, including:
+
+## Some implemented steps:
+
+- Installed Docker and WSL2 on Windows 11, but the WSL2 initially failed to start due to misconfigured .wslconfig.
+
+## 🔨Fixing WSL `automount` Configuration:
+
+> **Note:** `crossDistro = true` is **not** a valid key in the `[automount]` section, so WSL throws an unknown key error if you include it.
+
+####  Correct `[automount]` Configuration Example:
+
+```ini
+[automount]
+root = /mnt/host
+options = "metadata"
+```
+
+---
+
+### Restarting WSL and Docker Container
+
+After saving the correct `.wslconfig` file, restart WSL and the Docker container:
+
+```powershell
+wsl --shutdown
+```
+
+```powershell
+wsl
+```
+
+```powershell
+docker compose up -d
+```
+
+>  WSL2 should now run reliably, and Docker should successfully start the container.
+
+> **Note:** WSL2 boot speed improved: confirmed SSD is significantly faster than HDD when hosting the virtual disk.
+
+---
+
+## Common Docker Commands with Explanations  
+It will come in handy someday🙂
+
+| Command                           | Description                                                                                 |
+| --------------------------------- | ------------------------------------------------------------------------------------------- |
+| `docker compose up -d`            | Starts the containers defined in `docker-compose.yml` in detached (background) mode.        |
+| `docker compose down`             | Stops and removes the containers, networks, and volumes created by `docker-compose up`.     |
+| `docker compose restart`          | Restarts all containers defined in the compose file.                                        |
+| `docker ps`                       | Lists all currently running containers.                                                     |
+| `docker ps -a`                    | Lists all containers, including stopped ones.                                               |
+| `docker logs photoprism`          | Displays the logs/output from the container named `photoprism`. Useful for troubleshooting. |
+| `docker exec -it photoprism bash` | Opens an interactive shell (`bash`) inside the running `photoprism` container.              |
+| `docker stop photoprism`          | Gracefully stops the `photoprism` container.                                                |
+| `docker start photoprism`         | Starts a stopped `photoprism` container.                                                    |
+| `docker rm photoprism`            | Removes the `photoprism` container. It must be stopped first.                               |
+| `docker images`                   | Lists all downloaded Docker images.                                                         |
+| `docker image prune`              | Cleans up unused Docker images to free disk space.                                          |
+| `docker volume ls`                | Lists all Docker volumes.                                                                   |
+| `docker volume prune`             | Removes unused Docker volumes.                                                              |
+
+---
+
+# Finally some tests and settings
+
+- Tailscale integration: successfully tested secure remote access to Docker containers (e.g., PhotoPrism) from mobile and Fedora machines
+
+- PhotoPrism AI photo library: set up and secured using Tailscale + port forwarding. A private, smart photo library with AI-assisted organization
+
+- Plex and Plexamp integration: music library is now securely available on mobile, even while commuting
+
+
+# Planned next steps:
+
+- Install Portainer: a web-based Docker management interface for easier container control
+
+- Use Docker Compose: to manage multi-container setups (e.g., webserver + database)
+
+- Further harden container access using Tailscale or WireGuard
+
+- Reverse proxy setup planned: using Caddy or Nginx to simplify HTTPS and routing
+
+### *The goal is to build a stable, remotely accessible, container-based home service platform that also serves as a learning environment.*
+
+
 
 <details>
 <summary><strong>  Log |2025-06-08|</strong></summary>  
@@ -111,8 +208,3 @@ My goal with this project is to:
 </details>
 
 ---
-
-### ***To be continued...***
-
----
-
