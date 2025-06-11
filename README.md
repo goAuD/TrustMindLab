@@ -182,7 +182,7 @@ It will come in handy someday🙂
 
 - Reverse proxy setup planned: using Caddy or Nginx to simplify HTTPS and routing
 
-### *The goal is to build a stable, remotely accessible, container-based home service platform that also serves as a learning environment.*
+### The goal is to build a stable, remotely accessible, container-based home service platform that also serves as a learning environment.
 
 
 
