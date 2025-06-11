@@ -90,7 +90,7 @@ My goal with this project is to:
 ---
 
 <details>
-<summary><strong>  HomeLab Log |2025-06-08|</strong></summary>  
+<summary><strong>  Log |2025-06-08|</strong></summary>  
   
   ***System Tweaks:***
 - Pagefile set to initial 1024 MB, max 4892 MB on SSD (works well with 32 GB RAM)
