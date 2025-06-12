@@ -1,6 +1,8 @@
-### *To be continued...*
+## *to be continued...*
 
 # Welcome, in my HomeLab Project!
+
+## Details:
 
 <details>
 <summary><strong>  Introduction – Who I am and what this project is about</strong></summary>
@@ -15,8 +17,9 @@ This homelab project is the first step on that path: I am building a real, worki
 
 This is not a perfectly sterile lab, but rather a fine worked, dynamically evolving learning platform, with its own mistakes, solutions, and documentation.
 
-My goal with this project is to:  
-- demonstrate my progress,  
+### My goal with this project is to:  
+- demonstrate my progress,
+- build a stable, remotely accessible, container-based home service platform that also serves as a learning environment,  
 - help other beginners who are starting a similar journey, and  
 - convince my future employer that they are dealing with a motivated, eager-to-learn, and practical-minded person.
 
@@ -33,7 +36,9 @@ My goal with this project is to:
 
 ### Workstations and Servers
 
-***MSI Thin 15 B12UC laptop:***  
+---
+
+#### MSI Thin 15 B12UC laptop: 
 - CPU: Intel Core i5 (12th generation)  
 - RAM: 32 GB  
 - VGA: Nvidia RTX 3050  
@@ -41,14 +46,14 @@ My goal with this project is to:
 - OS: Fedora Linux  
 - Purpose: Learning system administration, network simulations, monitoring  
 
-***Windows 11 Pro PC (main server):***  
+#### Windows 11 Pro PC (main server): 
 - CPU: Intel Core i7-8700K  
 - RAM: 32 GB  
 - VGA: Nvidia RTX 3060 Ti  
 - Storage: 2× 1 TB NVMe SSD, 1 TB HDD  
 - Roles: Plex + Tailscale media server, planned NGINX web server  
 
-***HP 15-ba106ng laptop (pfSense router):***  
+#### HP 15-ba106ng laptop (pfSense router): 
 - CPU: AMD A9-9410  
 - RAM: 8 GB  
 - Storage: 1 TB HDD  
@@ -56,6 +61,8 @@ My goal with this project is to:
 - Roles: Firewall, DHCP, NAT, VLAN, port forwarding, VPN (WireGuard planned)  
 
 ### Network
+
+---
 
 - Netgear GS308E managed switch (8 ports)  
 - UNI USB–Ethernet adapter for HP laptop  
@@ -65,12 +72,17 @@ My goal with this project is to:
 
 ### Mobile Devices
 
+---
+
 - iPhone 11 (static public IP, uses Tailscale)  
 - Samsung tablet (Android 14, media playback, remote access)  
 
 ### Backup and Security
 
-- Weekly full system backup with Windows built-in tool  
+---
+
+- Using pfSense Firewall
+- Weekly full system backup
 - Planning incremental backups  
 - Documents on OneDrive for mobile access  
 - Plexamp + Tailscale used during commutes for music  
@@ -101,7 +113,7 @@ My goal with this project is to:
 
 As part of the HomeLab, I used Docker containerization to host isolated, manageable home services. During the project, I resolved several technical issues and successfully deployed several services, including:
 
-## Some implemented steps:
+## Problem
 
 - Installed Docker and WSL2 on Windows 11, but the WSL2 initially failed to start due to misconfigured .wslconfig.
 
@@ -137,7 +149,38 @@ docker compose up -d
 
 >  WSL2 should now run reliably, and Docker should successfully start the container.
 
+## 🔨Docker Desktop Startup Issue on Windows
+
+## Problem:
+
+- When Docker Desktop is set to start automatically with Windows, the following issues occur:
+
+1. **WSL Initialization Error**: On boot, Docker shows an error indicating that WSL is not loaded yet.
+2. **Engine Startup Failure**: Shortly after, another message appears (e.g., *Fetching issue*), and the Docker engine does not become usable.
+3. **Workaround Required**: Even if Docker Desktop is manually shut down, the issue persists unless further steps are taken.
+
+## Solution:
+### To get Docker Desktop working properly again:
+
+1. Fully exit Docker Desktop (`Right-click → Quit Docker Desktop`).
+2. Open `Event Viewer`, or alternatively use Task Manager or PowerShell.
+3. Locate and terminate the `com.docker.build.exe` process.
+4. Restart Docker Desktop manually.
+
+After performing these steps, Docker works normally.
+
+### Suspected Cause
+This may be due to **slow WSL initialization on system startup**, especially if Docker and/or WSL-related components are located on a **mechanical HDD**. The delayed loading could cause Docker to attempt to start before WSL is fully ready.
+
+### Suggested Fix
+Try moving Docker's WSL-related files and configuration (or the entire Docker installation) to a **solid-state drive (SSD)**. This might ensure faster startup and proper synchronization with WSL during boot.
+
 > **Note:** WSL2 boot speed improved: confirmed SSD is significantly faster than HDD when hosting the virtual disk.
+
+---
+
+💡Feel free to open an issue or contribute a better workaround if you've faced the same problem!
+
 
 ---
 
@@ -182,17 +225,21 @@ It will come in handy someday🙂
 
 - Reverse proxy setup planned: using Caddy or Nginx to simplify HTTPS and routing
 
-### The goal is to build a stable, remotely accessible, container-based home service platform that also serves as a learning environment.
+---
 
+# Logs
 
+---
 
 <details>
-<summary><strong>  Log |2025-06-08|</strong></summary>  
+<summary><strong> |08|06|2025|</strong></summary> 
+
+---
   
-  ***System Tweaks:***
+## System Tweaks:
 - Pagefile set to initial 1024 MB, max 4892 MB on SSD (works well with 32 GB RAM)
 
-***Network Setup:***  
+## Network Setup: 
 - UPnP enabled (helps Plex and Tailscale)  
 - SIP-ALG still on, will disable after Wi-Fi Calling off  
 - MAC/IP/Port Filtering disabled (unnecessary)  
@@ -200,7 +247,7 @@ It will come in handy someday🙂
 - Manual port forwarding for Plex (32400) working; UPnP might be disabled
 - pfSense configuration ongoing (WAN/LAN, VLAN, WireGuard, port forwarding)  
 
-***Plex + Tailscale:***  
+## Plex + Tailscale: 
 - Direct connection enabled, better and stable streaming  
 - iPhone uses Tailscale *exit node* depending on network  
 - Plex works flawlessly over Tailscale  
