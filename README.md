@@ -113,7 +113,7 @@ This is not a perfectly sterile lab, but rather a fine worked, dynamically evolv
 
 As part of the HomeLab, I used Docker containerization to host isolated, manageable home services. During the project, I resolved several technical issues and successfully deployed several services, including:
 
-## Problem
+## Problem:
 
 - Installed Docker and WSL2 on Windows 11, but the WSL2 initially failed to start due to misconfigured .wslconfig.
 
