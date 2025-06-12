@@ -206,7 +206,7 @@ It will come in handy someday🙂
 
 ---
 
-# Finally some tests and settings
+## Finally some tests and settings
 
 - Tailscale integration: successfully tested secure remote access to Docker containers (e.g., PhotoPrism) from mobile and Fedora machines
 
@@ -215,7 +215,7 @@ It will come in handy someday🙂
 - Plex and Plexamp integration: music library is now securely available on mobile, even while commuting
 
 
-# Planned next steps:
+## Planned next steps:
 
 - Install Portainer: a web-based Docker management interface for easier container control
 
