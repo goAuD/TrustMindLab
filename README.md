@@ -149,17 +149,16 @@ docker compose up -d
 
 >  WSL2 should now run reliably, and Docker should successfully start the container.
 
-## 🔨Docker Desktop Startup Issue on Windows
-
 ## Problem:
 
+- Docker Desktop Startup Issue on Windows
 - When Docker Desktop is set to start automatically with Windows, the following issues occur:
 
 1. **WSL Initialization Error**: On boot, Docker shows an error indicating that WSL is not loaded yet.
 2. **Engine Startup Failure**: Shortly after, another message appears (e.g., *Fetching issue*), and the Docker engine does not become usable.
 3. **Workaround Required**: Even if Docker Desktop is manually shut down, the issue persists unless further steps are taken.
 
-## Solution:
+## 🔨Solution:
 ### To get Docker Desktop working properly again:
 
 1. Fully exit Docker Desktop (`Right-click → Quit Docker Desktop`).
@@ -167,7 +166,7 @@ docker compose up -d
 3. Locate and terminate the `com.docker.build.exe` process.
 4. Restart Docker Desktop manually.
 
-After performing these steps, Docker works normally.
+## After performing these steps, Docker works normally.
 
 ### Suspected Cause
 This may be due to **slow WSL initialization on system startup**, especially if Docker and/or WSL-related components are located on a **mechanical HDD**. The delayed loading could cause Docker to attempt to start before WSL is fully ready.
