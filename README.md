@@ -107,6 +107,89 @@ This is not a perfectly sterile lab, but rather a fine worked, dynamically evolv
 
 ---
 
+<h2 style="color:#8B0000;">🧙‍♂️ The Sysadmin's Verse</h2>
+
+<pre style="color:#FF4500; background-color:#1a1a1a; padding:1em; border-radius:10px; font-family:Consolas,Monaco,monospace;">
+One Firewall to rule all them,
+One DNS to find them,
+One DHCP to bring them all,
+And in the darkness bind them.
+</pre>
+
+<p style="color:gray; font-style:italic;">
+Tuned in the darkest corners of Mordor...
+</p>
+
+*A pfSense tale where NAT and DHCP rules reign supreme - and only one sysadmin apprentice stands between order and chaos.*
+
+## Synopsis
+This isn’t just a HomeLab project. This is an epic.
+
+An old HP laptop, once forgotten, rises again – not as a client, but as a firewall.  
+The hero's journey spans two interfaces: one toward the ISP, one into the heart of the LAN.  
+Along the way, they face mythical entities such as `dhcpd`, the `pfctl` daemon, and the fearsome `nbound`.
+
+## ⚔️ The Quest
+- [x] Install pfSense on a 2017-ish laptop that wheezes under load
+- [x] Configure WAN/LAN interfaces (with some reboot rituals)
+- [x] Grant LAN devices access to the internet – *finally*
+- [x] Explore the dark arts of port forwarding
+- [x] Integrate Tailscale, Plex, DNS
+- [ ] Never reinstall again (lol, sure...)
+
+##  Network Topology (2025 Summer Edition)
+
+### 1. ISP Router
+- Acts as the upstream connection to the internet.
+- Either in bridge mode or with DMZ pointing to pfSense.
+- Connected via Ethernet to the pfSense WAN interface.
+
+### 2. pfSense (running on an old laptop)
+- Serves as the main router and firewall.
+- Interfaces:
+  - **WAN** → connected to ISP router.
+  - **LAN** → connected to local network via a switch.
+- Provides:
+  - DHCP and DNS for the LAN.
+  - NAT, port forwarding, and firewall rules.
+  - Future plans: pfBlockerNG, Tailscale subnet routing.
+
+### 3. LAN Switch
+- Connected to the pfSense LAN port.
+- Distributes LAN connectivity to wired devices and access points.
+
+### 4. Devices connected to the switch
+- **PC (Windows 11 Pro)**
+  - Hosts Plex Media Server and PhotoPrism (via Docker/Portainer).
+  - Also used for general administration and monitoring.
+- **ZTE Router (WLAN Access Point Mode)**
+  - Provides Wi-Fi only (DHCP disabled).
+  - Connected via Ethernet to the switch.
+    
+
+### 5. Devices connected via Wi-Fi (through ZTE AP)
+- Smartphones
+- Tablets
+- Smartwatch
+- Nokia streaming box
+- HP printer
+- IoT gadgets
+
+---
+
+### 🔁 Traffic Flow Summary
+
+[Internet] → [ISP Router] → [pfSense WAN] → [pfSense LAN] → [Switch] → [PC / AP] → [Wi-Fi tools]
+
+## 📊 pfSense Dashboard Snapshot
+
+> *"Tuned in the darkest corners of Mordor..."*
+
+![pfSense Dashboard](images/pfsense-dashboard.png)
+
+<sub><i>Status of my pfSense-powered firewall as of Spring 2025 – minimal CPU load, low memory usage, and a KEA-powered DHCP. Yes, DNS Unbound still reigns supreme.</i></sub>
+
+
 <details>
 <summary><strong>  Docker - The beginning 11|06|2025</strong></summary>
 
