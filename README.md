@@ -122,7 +122,7 @@ Tuned in the darkest corners of Mordor...
 
 *A pfSense tale where NAT and DHCP rules reign supreme - and only one sysadmin apprentice stands between order and chaos.*
 
-## 📊 pfSense Dashboard Snapshot
+# pfSense Dashboard Snapshot
 
 > *"Tuned in the darkest corners of Mordor..."*
 
