@@ -122,6 +122,16 @@ Tuned in the darkest corners of Mordor...
 
 *A pfSense tale where NAT and DHCP rules reign supreme - and only one sysadmin apprentice stands between order and chaos.*
 
+## 📊 pfSense Dashboard Snapshot
+
+> *"Tuned in the darkest corners of Mordor..."*
+
+![pfSense Dashboard](images/pfsense-dashboard.png)
+
+<sub><i>Status of my pfSense - minimal CPU load, low memory usage, and a KEA-powered DHCP. Yes, DNS Unbound still reigns supreme.</i></sub>
+
+
+
 ## Synopsis
 This isn’t just a HomeLab project. This is an epic.
 
@@ -180,15 +190,6 @@ Along the way, they face mythical entities such as `dhcpd`, the `pfctl` daemon, 
 ### 🔁 Traffic Flow Summary
 
 [Internet] → [ISP Router] → [pfSense WAN] → [pfSense LAN] → [Switch] → [PC / AP] → [Wi-Fi tools]
-
-## 📊 pfSense Dashboard Snapshot
-
-> *"Tuned in the darkest corners of Mordor..."*
-
-![pfSense Dashboard](images/pfsense-dashboard.png)
-
-<sub><i>Status of my pfSense-powered firewall as of Spring 2025 – minimal CPU load, low memory usage, and a KEA-powered DHCP. Yes, DNS Unbound still reigns supreme.</i></sub>
-
 
 <details>
 <summary><strong>  Docker - The beginning 11|06|2025</strong></summary>
