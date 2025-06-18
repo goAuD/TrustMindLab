@@ -1,8 +1,8 @@
-## *to be continued...*
+### *to be continued...*
 
-# Welcome, in my HomeLab Project!
+# **Welcome, in my HomeLab Project!**
 
-## Details:
+## *Details:*
 
 <details>
 <summary><strong>  Introduction – Who I am and what this project is about</strong></summary>
@@ -34,9 +34,7 @@ This is not a perfectly sterile lab, but rather a fine worked, dynamically evolv
 
 ---
 
-### Workstations and Servers
-
----
+#### Workstations and Servers
 
 #### MSI Thin 15 B12UC laptop: 
 - CPU: Intel Core i5 (12th generation)  
@@ -109,7 +107,10 @@ This is not a perfectly sterile lab, but rather a fine worked, dynamically evolv
 
 ---
 
-# Docker - The beginning 11|06|2025
+<details>
+<summary><strong>  Docker - The beginning 11|06|2025</strong></summary>
+
+---
 
 As part of the HomeLab, I used Docker containerization to host isolated, manageable home services. During the project, I resolved several technical issues and successfully deployed several services, including:
 
@@ -180,7 +181,6 @@ Try moving Docker's WSL-related files and configuration (or the entire Docker in
 
 💡Feel free to open an issue or contribute a better workaround if you've faced the same problem!
 
-
 ---
 
 ## Common Docker Commands with Explanations  
@@ -226,9 +226,11 @@ It will come in handy someday🙂
 
 ---
 
-# Logs
+</details>
 
 ---
+
+## *Logs:*
 
 <details>
 <summary><strong> |08|06|2025|</strong></summary> 
