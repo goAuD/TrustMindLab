@@ -147,7 +147,12 @@ Along the way, they face mythical entities such as `dhcpd`, the `pfctl` daemon, 
 - [x] Integrate Tailscale, Plex, DNS
 - [ ] Never reinstall again (lol, sure...)
 
-##  Network Topology (2025 Summer Edition)
+---
+
+<details>
+<summary><strong> Network Topology - 2025 Summer Edition</strong></summary>
+
+---
 
 ### 1. ISP Router
 - Acts as the upstream connection to the internet.
@@ -184,6 +189,8 @@ Along the way, they face mythical entities such as `dhcpd`, the `pfctl` daemon, 
 - Nokia streaming box
 - HP printer
 - IoT gadgets
+
+</details>
 
 ---
 
