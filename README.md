@@ -2,6 +2,8 @@
 
 # **Welcome, in my HomeLab Project!**
 
+[![Join the Dark Lab Discussions](https://img.shields.io/badge/💬_Join-Dark_Lab-blueviolet)](https://github.com/goAuD/MyHomeLab/discussions/1)
+
 ## *Details:*
 
 <details>
