@@ -11,7 +11,7 @@
 
 ---
 
-My name is goaud, I was born in Budapest, and I have been living in Austria since 2014.  
+My name is Viktor Halupka, I was born in Budapest, and I have been living in Austria since 2014.  
 Since my childhood (Commodore 64), I have been interested in the world of IT, but I worked in the gastronomy industry for a long time.  
 At the age of forty, however, I decided to make a dream come true: to work professionally with IT, networks, and servers.
 
