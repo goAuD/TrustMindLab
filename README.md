@@ -868,8 +868,6 @@ Recommended reliable, low-overhead DNSBL feeds:
 
 AdAway → https://adaway.org/hosts.txt
 
-Energized Basic → https://block.energized.pro/basic/formats/domains.txt
-
 NoCoin → https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
 
 4. ✅ Avoid /var filling up again
