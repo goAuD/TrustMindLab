@@ -1,4 +1,4 @@
-# 🔁 SSH Cross-Access – Fedora ↔ Windows 11 Pro
+# 🔁 SSH Cross Access Fedora ↔ Windows 11 Pro
 
 The goal: establish secure, key-based SSH access between two devices running different operating systems, **in both directions**.
 
@@ -38,7 +38,7 @@ Windows 11 Pro PC
 - SSH key pair (`~/.ssh/id_ed25519`)
 - Either LAN IP or Tailscale IP of the Windows PC
 
-### Windows side (Win11 PC)
+### Windows side (Win11pro PC)
 
 - OpenSSH Server installed and enabled
 - A listening port (e.g., `PORTXXXX`) opened in Windows Defender Firewall
