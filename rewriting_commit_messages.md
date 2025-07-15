@@ -2,7 +2,7 @@
 
 **Author:** Viktor Halupka  
 **Project:** DarkLab  
-**Date:** 2025-07-14
+**Date:** 14-07-2025
 
 ---
 

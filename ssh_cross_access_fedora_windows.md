@@ -3,7 +3,7 @@
 The goal: establish secure, key-based SSH access between two devices running different operating systems, **in both directions**.
 
 ✍️ Author: Viktor Halupka  
-🗓️ Updated: 2025-07-14  
+🗓️ Updated: 14-07-2025  
 📄 Version: v1.0
 
 ---
@@ -138,7 +138,7 @@ ssh -p 2222 goaud@192.168.X.X
 
 ## 🖼️ Screenshot: Cross SSH Test
 
-![SSH connection success](./images/cross_ssh.jpeg)
+![SSH connection success](images/cross_ssh.jpeg)
 
 ---
 
