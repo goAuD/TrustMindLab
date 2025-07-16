@@ -138,7 +138,7 @@ ssh -p 2222 goaud@192.168.X.X
 
 ## 🖼️ Screenshot: Cross SSH Test
 
-![SSH connection success](images/cross_ssh.jpeg)
+![SSH connection success](images/cross_ssh.jpg)
 
 ---
 
