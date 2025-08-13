@@ -9,7 +9,7 @@
 ## 🧩 Aktuális setup
 
 - Kihúzható tálcára került a billentyűzet és az egér
-- A szék karfája le lett engedve → már nem nyomja a hónaljat
+- A szék karfája le lett engedve → már nem nyomja a könyököt
 - A monitor szemmagasság alatt kicsivel van
 - Alkar nem lóg, váll nem feszül
 

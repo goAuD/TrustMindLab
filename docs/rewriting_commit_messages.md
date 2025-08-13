@@ -4,6 +4,11 @@
 **Project:** DarkLab  
 **Date:** 14-07-2025
 
+[![Join the TrustMindLab Discussions](https://img.shields.io/badge/💬_Join-TrustMindLab-blueviolet)](https://github.com/goAuD/MyHomeLab/discussions/1)  
+<div class="badge-base LI-profile-badge" data-locale="hu_HU" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="viktor-halupka-weiz" data-version="v1">
+  <a class="badge-base__link LI-simple-link" href="https://at.linkedin.com/in/viktor-halupka-weiz?trk=profile-badge">Viktor Halupka</a>
+</div>
+
 ---
 
 ## 📌 Purpose
@@ -17,7 +22,9 @@ This document outlines a clever and safe workaround to rewrite commit messages *
 ## 🔁 Method: Rename + Restore Strategy
 
 ### 🧠 Idea:
+
 GitHub shows only the **last commit** related to a file. If you:
+
 1. **Rename** a file,
 2. Then **rename it back to the original**,  
 you get a new commit entry — where you can write a clean, meaningful commit message.
@@ -29,23 +36,24 @@ you get a new commit entry — where you can write a clean, meaningful commit me
 1. Go to the image file in the GitHub Web UI.
 2. Click the pencil icon (✏️) to enter "Edit this file" mode.
 3. Change the file name slightly, e.g.:
-   ```
-   ssh_fedora_to_win.png → ssh_fedora_to_win_1.png
-   ```
+
+   - ssh_fedora_to_win.png → ssh_fedora_to_win_1.png
+
 4. Scroll down, and in the **commit message field**, enter something like:
-   ```
-   Temp rename to refresh commit history
-   ```
+   
+   - Temp rename to refresh commit history
+
 5. Commit the change directly to `main` (or your branch).
+
 6. Now repeat:
+   
    - Rename the file back to the original:
-     ```
+
      ssh_fedora_to_win_1.png → ssh_fedora_to_win.png
-     ```
+
    - And this time, enter a **meaningful commit message**, e.g.:
-     ```
+
      Add screenshot: Fedora to Windows SSH login test
-     ```
 
 ---
 

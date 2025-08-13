@@ -1,6 +1,9 @@
 # 🎯 Hatékony Tanulási Módszerek
 
----
+[![Join the TrustMindLab Discussions](https://img.shields.io/badge/💬_Join-TrustMindLab-blueviolet)](https://github.com/goAuD/MyHomeLab/discussions/1)  
+<div class="badge-base LI-profile-badge" data-locale="hu_HU" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="viktor-halupka-weiz" data-version="v1">
+  <a class="badge-base__link LI-simple-link" href="https://at.linkedin.com/in/viktor-halupka-weiz?trk=profile-badge">Viktor Halupka</a>
+</div>
 
 ## 🧠 Alapelvek
 
@@ -20,16 +23,15 @@
 – Kifejezések kiemelése külön listába
 – Hét végén 1 bekezdés írás angolul, saját szavaiddal
 |
-| 📚 **Google IT Support** |  
-– Modulokat egyben haladni (nem darabokban)  
-– Kérdés-válasz saját jegyzetfüzetbe  
-– Mit tanultam? naponta 1 sor  
+| 📚 **Google IT Support** |
+– Modulokat egyben haladni (nem darabokban)
+– Kérdés-válasz saját jegyzetfüzetbe
+– Mit tanultam? naponta 1 sor
 |
-| 📂 **README / GitHub írás** |  
-– Ne utólag, hanem modul közben frissíts  
-– Egy-egy fogalom (pl. DevSecOps: „Threat Modeling”) után írj 3 saját mondatot  
-– Írj példát is, ha van saját rendszeredből (NoPara, Tailscale, RSA, stb.)  
-|
+| 📂 **README / GitHub írás** |
+– Ne utólag, hanem modul közben frissíts
+– Egy-egy fogalom (pl. DevSecOps: „Threat Modeling”) után írj 3 saját mondatot
+– Írj példát is, ha van saját rendszeredből (NoPara, Tailscale, RSA, stb.)
 
 ---
 
@@ -64,6 +66,6 @@ Akkor jó úton vagy – *ez már nem tanulás, hanem fejlődés*.
 
 📌 **Szükséges eszközök**:
 
-- Markdown jegyzetfüzet (pl. `study_notes.md`)
+- Markdown jegyzetfüzet (pl. `studies_notes.md`)
 - Szókincslista (pl. `devsecops_terms.md`)
 - Projekt log (pl. `learning_log.md`)

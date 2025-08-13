@@ -1,5 +1,11 @@
 # 🤡 Sysadmin Standup Survival
 
+[![Join the TrustMindLab Discussions](https://img.shields.io/badge/💬_Join-TrustMindLab-blueviolet)](https://github.com/goAuD/MyHomeLab/discussions/1)  
+<div class="badge-base LI-profile-badge" data-locale="hu_HU" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="viktor-halupka-weiz" data-version="v1">
+  <a class="badge-base__link LI-simple-link" href="https://at.linkedin.com/in/viktor-halupka-weiz?trk=profile-badge">Viktor Halupka</a>
+</div>
+
+
    _________            __              _______        __           
   /   _____/ ____ _____/  |_ ___.__.   /  _  \ \__    |__| ____     
   \_____  \_/ __ \\__  \   __<   |  | /  /_\  \|  |   |  |/ __ \    
@@ -7,12 +13,12 @@
  /_______  /\___  >____  /__|  / ____\____|__  /____/|__|\___  >   
          \/     \/     \/     \/            \/              \/    
                                                                   
-  🔥 Certified L1 HumorSec Agent – `Laughing under /var/logs since 2025` 🔥
-
----
+  🔥 Certified L1 HumorSec Agent – `Laughing under /var/logs since 2025`
 
 > *Ez nem dokumentáció. Ez terápia.*  
 > Egy fáradt, de derék junior rendszergazda jegyzetei alapján.
+
+---
 
 ## 💻 Klasszikus parancsok, ahogy még nem láttad
 
@@ -49,6 +55,8 @@ tail -f /var/log/life.log
 # Nagyjából ugyanaz, minden nap...
 ```
 
+---
+
 ## ⚠️ Rituálék Kerberos után
 
 ╔══════════════════════════╗
@@ -63,6 +71,7 @@ tail -f /var/log/life.log
 5. Hívd fel a havert:
 6. „Figyu, most már ketten várjuk a megváltót…”
 ```
+
 ---
 
 ## 🔴 pfSense: A Piros Laptop Legendája
@@ -74,6 +83,8 @@ User: "Ez milyen laptop amúgy?"
 Csaj: "Piros."
 *mission failed sound*
 ```
+
+---
 
 # 🧱 pfSense Memorial 🧱
 

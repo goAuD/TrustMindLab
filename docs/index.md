@@ -1,6 +1,11 @@
 
 # 📘 TrustMindLab Documentation Index
 
+[![Join the TrustMindLab Discussions](https://img.shields.io/badge/💬_Join-TrustMindLab-blueviolet)](https://github.com/goAuD/MyHomeLab/discussions/1)  
+<div class="badge-base LI-profile-badge" data-locale="hu_HU" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="viktor-halupka-weiz" data-version="v1">
+  <a class="badge-base__link LI-simple-link" href="https://at.linkedin.com/in/viktor-halupka-weiz?trk=profile-badge">Viktor Halupka</a>
+</div>
+
 Welcome to the structured documentation of the **TrustMindLab** project.  
 This index provides a categorized overview of all markdown files and their locations.
 
@@ -57,7 +62,6 @@ This index provides a categorized overview of all markdown files and their locat
 - [pfsense_and_the_piece_hu.md](humor/pfsense_and_the_piece_hu.md) 🇭🇺
 - [pfSense_complaint_list_hu.md](humor/pfSense_complaint_list_hu.md) 🇭🇺
 - [trustmindlab_humor_hu.md](humor/trustmindlab_humor_hu.md) 🇭🇺
-- [trustmindlab_humor_hu.html](humor/trustmindlab_humor_hu.html) 🇭🇺
 - [trustmind_ops_mage_&_cerberus_epos_hu.md](humor/trustmind_ops_mage_&_cerberus_epos_hu.md) 🇭🇺
 
 ---

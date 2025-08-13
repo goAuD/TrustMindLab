@@ -21,7 +21,7 @@
 
 ---
 
-#### Windows 11 Pro PC (main server):
+## Windows 11 Pro PC (main server):
 
 - CPU: Intel Core i7-8700K  
 
@@ -35,7 +35,7 @@
 
 ---
 
-#### HP 15-ba106ng laptop (pfSense router):
+## HP 15-ba106ng laptop (pfSense router):
 
 - CPU: AMD A9-9410  
 
@@ -49,7 +49,7 @@
 
 ---
 
-### Network
+## Network
 
 - Netgear GS308E managed switch (8 ports)  
 
@@ -63,7 +63,7 @@
 
 ---
 
-### Mobile Devices
+## Mobile Devices
 
 - iPhone 11 (static public IP, uses Tailscale)  
 
@@ -71,7 +71,7 @@
 
 ---
 
-### Backup and Security
+## Backup and Security
 
 - Using pfSense Firewall
 
