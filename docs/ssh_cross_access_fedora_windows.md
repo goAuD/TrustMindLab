@@ -1,5 +1,12 @@
 # 🔁 SSH Cross Access Fedora ↔ Windows 11 Pro
 
+[![Join the TrustMindLab Discussions](https://img.shields.io/badge/💬_Join-TrustMindLab-blueviolet)](https://github.com/goAuD/MyHomeLab/discussions/1)  
+<div class="badge-base LI-profile-badge" data-locale="hu_HU" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="viktor-halupka-weiz" data-version="v1">
+  <a class="badge-base__link LI-simple-link" href="https://at.linkedin.com/in/viktor-halupka-weiz?trk=profile-badge">Viktor Halupka</a>
+</div>
+
+---
+
 The goal: establish secure, key-based SSH access between two devices running different operating systems, **in both directions**.
 
 ✍️ Author: Viktor Halupka  
@@ -10,7 +17,7 @@ The goal: establish secure, key-based SSH access between two devices running dif
 
 ## 🖧 Topology
 
-```
+```ini
 MSI Laptop (Fedora 40)
       ↕  SSH over LAN (custom port)
 Windows 11 Pro PC
@@ -138,7 +145,7 @@ ssh -p 2222 goaud@192.168.X.X
 
 ## 🖼️ Screenshot: Cross SSH Test
 
-<img src="images/cross_ssh.jpg" alt="SSH connection success" width="350">
+<img src="TrustMindLab/assets/img/cross_ssh.jpg" alt="SSH connection success" width="350">
 
 ---
 
