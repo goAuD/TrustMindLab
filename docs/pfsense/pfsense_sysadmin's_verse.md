@@ -19,7 +19,7 @@ And in the darkness bind them.
 
 pfSense Dashboard Snapshot:
 
-![Dashboard](../../assets/img/pfsense-dashboard.png)
+<img src="../../assets/img/pfsense-dashboard.png" alt="pfsense" width="450">
 
 ---
 
