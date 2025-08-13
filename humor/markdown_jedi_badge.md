@@ -5,7 +5,7 @@
  |                                 |
  |   .md mester szint elérve!      |
  |   GitHub-ready dokumentációk    |
- |   <#> PreDarkLab Certified <#>  |
+ |   <#> TrustMind Certified <#>   |
  |_________________________________|
 
           🌌 The .md force 🌌
