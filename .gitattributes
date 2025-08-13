@@ -1,0 +1,32 @@
+# Normalize line endings to LF
+* text=auto eol=lf
+
+# Treat Markdown, scripts, configs as text
+*.md     text
+*.html   text
+*.css    text
+*.sh     text
+*.cron   text
+*.conf   text
+*.ini    text
+*.yaml   text
+*.yml    text
+*.json   text
+*.ps1    text
+*.py     text
+
+# Treat images and binaries as binary (no diff/merge)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.pdf    binary
+*.zip    binary
+*.tar    binary
+*.gz     binary
+
+# Ignore linguist counting on assets (GitHub language stats)
+assets/** linguist-vendored
+
+# Optional: shell script merge driver (if you have complex logic)
+*.sh     merge=union
