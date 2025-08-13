@@ -9,7 +9,6 @@ This index provides a categorized overview of all markdown files and their locat
 ## 🧠 Core Documentation
 
 - [autofill_git-commit_troubleshooting.md](autofill_git-commit_troubleshooting.md)
-- [docker_hardening.md](docker_hardening.md)
 - [docker_hardening_2025_06_11.md](docker_hardening_2025_06_11.md)
 - [equipment_overview_and_planed_developments_2025.md](equipment_overview_and_planed_developments_2025.md)
 - [fedora_nvidia_akmods_guard.md](fedora_nvidia_akmods_guard.md)
