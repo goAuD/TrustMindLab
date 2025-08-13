@@ -41,7 +41,7 @@ docker compose up -d
 
 > WSL2 should now run reliably, and Docker should successfully start the container.
 
-![Dashboard](TrustMindLab/assets/img/Docker.png)
+![Dashboard](../assets/img/Docker.png)
 
 ---
 
@@ -122,7 +122,7 @@ Try moving Docker's WSL-related files and configuration (or the entire Docker in
 
 - Plex and Plexamp integration: music library is now securely available on mobile, even while commuting
 
-![Dashboard](TrustMindLab/assets/img/PhotoPrism.png)
+![Dashboard](../assets/img/PhotoPrism.png)
 
 ---
 

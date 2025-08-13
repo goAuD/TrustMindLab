@@ -145,7 +145,7 @@ ssh -p 2222 goaud@192.168.X.X
 
 ## 🖼️ Screenshot: Cross SSH Test
 
-<img src="TrustMindLab/assets/img/cross_ssh.jpg" alt="SSH connection success" width="350">
+<img src="../assets/img/cross_ssh.jpg" alt="SSH connection success" width="350">
 
 ---
 
