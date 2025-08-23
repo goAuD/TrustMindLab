@@ -32,3 +32,12 @@ __pycache__/
 
 # Archivált fájlok és mentések – NE pushold
 archive/
+
+# Archives / exports
+*.zip
+*.7z
+*.rar
+dist/
+build/
+export/
+web_exports/
